@@ -1,74 +1,84 @@
 {
-  "dishes": [
+  "phones": [
     {
       "id": 0,
-      "name": "Uthappizza",
-      "image": "images/uthappizza.png",
+      "name": "Iphone 15 Pro Max 1TB",
+      "image": "images/iphone15promax_1tb.png",
       "category": "mains",
       "label": "Hot",
-      "price": "4.99",
+      "price": "1,599",
       "featured": true,
-      "description": "A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer."
+      "description": "As part of our efforts to reach carbon neutrality by 2030, iPhone 15 Pro Max do not include a power adapter or EarPods. Included in the box is a USB‑C Charge Cable that supports fast charging and is compatible with USB‑C power adapters and computer ports."
     },
     {
       "id": 1,
-      "name": "Zucchipakoda",
-      "image": "images/zucchipakoda.png",
+      "name": "Iphone 15 Pro Max 2TB",
+      "image": "images/iphone15promax_2tb.png",
       "category": "appetizer",
       "label": "",
-      "price": "1.99",
+      "price": "2,000",
       "featured": false,
-      "description": "Deep fried Zucchini coated with mildly spiced Chickpea flour batter accompanied with a sweet-tangy tamarind sauce"
+      "description": "Included with Iphone is a USB‑C Charge Cable that supports fast charging and is compatible with USB‑C power adapters and computer ports. We encourage you to use any compatible USB‑C power adapter. If you need a new Apple power adapter or headphones, they are available for purchase."
     },
     {
       "id": 2,
-      "name": "Vadonut",
-      "image": "images/vadonut.png",
+      "name": "Samsung galaxy S24 Ultra 1TB | 12GB",
+      "image": "images/sss24ultra.png",
       "category": "appetizer",
       "label": "New",
-      "price": "1.99",
+      "price": "1,900",
       "featured": false,
       "description": "A quintessential ConFusion experience, is it a vada or is it a donut?"
     },
     {
       "id": 3,
-      "name": "ElaiCheese Cake",
-      "image": "images/elaicheesecake.png",
+      "name": "Samsung galaxy S23 Ultra 512GB | 12GB",
+      "image": "images/sss23ultra.png",
       "category": "dessert",
       "label": "",
-      "price": "2.99",
+      "price": "1,800",
       "featured": false,
       "description": "A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms"
+    },
+    {
+      "id": 4,
+      "name": "Google Pixel 8 Pro 256GB",
+      "image": "images/ggpixel8pro.jpg",
+      "category": "dessert",
+      "label": "",
+      "price": "800",
+      "featured": false,
+      "description": "The Pixel 8 Pro camera system includes updated, pro-level cameras for better low-light photos, sharper selfies and Pixel's best zoom ever, and Pro controls enable advanced camera settings and full-resolution photography."
     }
   ],
   "comments": [
     {
       "id": 0,
-      "dishId": 0,
+      "phoneId": 0,
       "rating": 5,
-      "comment": "Imagine all the eatables, living in conFusion!",
+      "comment": "This phone is beautiful!",
       "author": "John Lemon",
       "date": "2012-10-16T17:57:28.556094Z"
     },
     {
       "id": 1,
-      "dishId": 0,
+      "phoneId": 0,
       "rating": 4,
-      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "comment": "I wish I could get my mother-in-law to use it!",
       "author": "Paul McVites",
       "date": "2014-09-05T17:57:28.556094Z"
     },
     {
       "id": 2,
-      "dishId": 0,
+      "phoneId": 0,
       "rating": 3,
-      "comment": "Eat it, just eat it!",
+      "comment": "This phone is suck!",
       "author": "Michael Jaikishan",
       "date": "2015-02-13T17:57:28.556094Z"
     },
     {
       "id": 3,
-      "dishId": 0,
+      "phoneId": 0,
       "rating": 4,
       "comment": "Ultimate, Reaching for the stars!",
       "author": "Ringo Starry",
@@ -76,39 +86,39 @@
     },
     {
       "id": 4,
-      "dishId": 0,
+      "phoneId": 0,
       "rating": 2,
-      "comment": "It's your birthday, we're gonna party!",
+      "comment": "Wow, it's cool but why it don't have any different than the last version!",
       "author": "25 Cent",
       "date": "2011-12-02T17:57:28.556094Z"
     },
     {
       "id": 5,
-      "dishId": 1,
+      "phoneId": 1,
       "rating": 5,
-      "comment": "Imagine all the eatables, living in conFusion!",
+      "comment": "This phone is beautiful!",
       "author": "John Lemon",
       "date": "2012-10-16T17:57:28.556094Z"
     },
     {
       "id": 6,
-      "dishId": 1,
+      "phoneId": 1,
       "rating": 4,
-      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "comment": "I wish I could get my mother-in-law to use it!",
       "author": "Paul McVites",
       "date": "2014-09-05T17:57:28.556094Z"
     },
     {
       "id": 7,
-      "dishId": 1,
+      "phoneId": 1,
       "rating": 3,
-      "comment": "Eat it, just eat it!",
+      "comment": "This phone is suck!",
       "author": "Michael Jaikishan",
       "date": "2015-02-13T17:57:28.556094Z"
     },
     {
       "id": 8,
-      "dishId": 1,
+      "phoneId": 1,
       "rating": 4,
       "comment": "Ultimate, Reaching for the stars!",
       "author": "Ringo Starry",
@@ -116,39 +126,39 @@
     },
     {
       "id": 9,
-      "dishId": 1,
+      "phoneId": 1,
       "rating": 2,
-      "comment": "It's your birthday, we're gonna party!",
+      "comment": "This phone is suck!",
       "author": "25 Cent",
       "date": "2011-12-02T17:57:28.556094Z"
     },
     {
       "id": 10,
-      "dishId": 2,
+      "phoneId": 2,
       "rating": 5,
-      "comment": "Imagine all the eatables, living in conFusion!",
+      "comment": "This phone is beautiful!",
       "author": "John Lemon",
       "date": "2012-10-16T17:57:28.556094Z"
     },
     {
       "id": 11,
-      "dishId": 2,
+      "phoneId": 2,
       "rating": 4,
-      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "comment": "I wish I could get my mother-in-law to use it!",
       "author": "Paul McVites",
       "date": "2014-09-05T17:57:28.556094Z"
     },
     {
       "id": 12,
-      "dishId": 2,
+      "phoneId": 2,
       "rating": 3,
-      "comment": "Eat it, just eat it!",
+      "comment": "This phone is suck!",
       "author": "Michael Jaikishan",
       "date": "2015-02-13T17:57:28.556094Z"
     },
     {
       "id": 13,
-      "dishId": 2,
+      "phoneId": 2,
       "rating": 4,
       "comment": "Ultimate, Reaching for the stars!",
       "author": "Ringo Starry",
@@ -156,39 +166,39 @@
     },
     {
       "id": 14,
-      "dishId": 2,
+      "phoneId": 2,
       "rating": 2,
-      "comment": "It's your birthday, we're gonna party!",
+      "comment": "Wow, it's cool but why it don't have any different than the last version!",
       "author": "25 Cent",
       "date": "2011-12-02T17:57:28.556094Z"
     },
     {
       "id": 15,
-      "dishId": 3,
+      "phoneId": 3,
       "rating": 5,
-      "comment": "Imagine all the eatables, living in conFusion!",
+      "comment": "This phone is beautiful!",
       "author": "John Lemon",
       "date": "2012-10-16T17:57:28.556094Z"
     },
     {
       "id": 16,
-      "dishId": 3,
+      "phoneId": 3,
       "rating": 4,
-      "comment": "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+      "comment": "I wish I could get my mother-in-law to use it!",
       "author": "Paul McVites",
       "date": "2014-09-05T17:57:28.556094Z"
     },
     {
       "id": 17,
-      "dishId": 3,
+      "phoneId": 3,
       "rating": 3,
-      "comment": "Eat it, just eat it!",
+      "comment": "This phone is suck!",
       "author": "Michael Jaikishan",
       "date": "2015-02-13T17:57:28.556094Z"
     },
     {
       "id": 18,
-      "dishId": 3,
+      "phoneId": 3,
       "rating": 4,
       "comment": "Ultimate, Reaching for the stars!",
       "author": "Ringo Starry",
@@ -196,61 +206,69 @@
     },
     {
       "id": 19,
-      "dishId": 3,
+      "phoneId": 3,
       "rating": 2,
-      "comment": "It's your birthday, we're gonna party!",
+      "comment": "Wow, it's cool but why it don't have any different than the last version!",
       "author": "25 Cent",
       "date": "2011-12-02T17:57:28.556094Z"
+    },
+    {
+      "id": 20,
+      "phoneId": 4,
+      "rating": 1,
+      "comment": "This phone is suck!",
+      "author": "Michael Alest",
+      "date": "2015-02-13T17:57:28.556094Z"
     }
   ],
   "promotions": [
     {
       "id": 0,
-      "name": "Weekend Grand Buffet",
-      "image": "images/buffet.png",
+      "name": "Weekend Grand Sale",
+      "image": "images/sale.png",
       "label": "New",
-      "price": "19.99",
+      "price": "299.99",
       "featured": true,
-      "description": "Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person "
+      "description": "Get ready for an unbeatable phone sale promotion featuring the latest models from top brands, sleek and modern designs, high-performance features, long-lasting battery life, and stunning display quality. Enjoy exclusive benefits including free shipping on all orders, a complimentary screen protector and case, a one-year warranty, and 24/7 customer support—all starting at just $299.99. Hurry and grab this limited-time offer to experience the best in mobile technology!"
     }
   ],
   "leaders": [
-    {
-      "id": 0,
-      "name": "Peter Pan",
-      "image": "images/alberto.png",
-      "designation": "Chief Epicurious Officer",
-      "abbr": "CEO",
-      "featured": false,
-      "description": "Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which The Frying Pan became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections."
-    },
-    {
-      "id": 1,
-      "name": "Dhanasekaran Witherspoon",
-      "image": "images/alberto.png",
-      "designation": "Chief Food Officer",
-      "abbr": "CFO",
-      "featured": false,
-      "description": "Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, Everything that runs, wins, and everything that stays, pays!"
-    },
-    {
-      "id": 2,
-      "name": "Agumbe Tang",
-      "image": "images/alberto.png",
-      "designation": "Chief Taste Officer",
-      "abbr": "CTO",
-      "featured": false,
-      "description": "Blessed with the most discerning gustatory sense, Agumbe, our CFO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, You click only if you survive my lick."
-    },
-    {
-      "id": 3,
-      "name": "Alberto Somayya",
-      "image": "images/alberto.png",
-      "designation": "Executive Chef",
-      "abbr": "EC",
-      "featured": true,
-      "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
-    }
+      {
+        "id": 0,
+        "name": "Peter Pan",
+        "image": "images/peterpan.png",
+        "designation": "Chief Executive Officer",
+        "abbr": "CEO",
+        "featured": false,
+        "description": "Our CEO, Peter, attributes his success to his hardworking East Asian immigrant parents who made the arduous journey to America to provide their children with a better future. Inspired by his mother’s resourcefulness, Peter developed a passion for technology and innovation. He brings his zeal for cutting-edge mobile technology and exceptional customer service to our shop, leading our team to provide the best products and services to our customers."
+      },
+      {
+        "id": 1,
+        "name": "Danny Dick",
+        "image": "images/danny.jpg",
+        "designation": "Chief Financial Officer",
+        "abbr": "CFO",
+        "featured": false,
+        "description": "Our CFO, Danny, comes from a family with a long-standing tradition in business and finance. His experiences growing up in a family-run business environment have given him a keen understanding of financial management and strategic planning. Danny's philosophy is, 'Every investment is an opportunity, and every opportunity is an investment.'"
+      },
+      {
+        "id": 2,
+        "name": "Agumbe Tang",
+        "image": "images/agumbe.png",
+        "designation": "Chief Technology Officer",
+        "abbr": "CTO",
+        "featured": false,
+        "description": "Blessed with an exceptional understanding of technology, Agumbe, our CTO, ensures that every product we offer meets the highest standards of quality and innovation. Our team strives to meet his exacting standards. He lives by his motto, 'Innovation drives success.'"
+      },
+      {
+        "id": 3,
+        "name": "Sam Dickus",
+        "image": "images/sam.png",
+        "designation": "Executive Sales Manager",
+        "abbr": "ESM",
+        "featured": true,
+        "description": "An award-winning sales manager with extensive international experience, Sam has worked with some of the biggest names in the tech industry. He specializes in creating exceptional customer experiences and says, 'Great products and great service make happy customers.'"
+      }
   ],
   "feedback": [
     {
